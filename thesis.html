@@ -11,6 +11,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" href="images/icon.png">
 </head>
 
 <body class="is-preload">
@@ -18,13 +19,13 @@
     <!-- Header -->
     <section id="header">
         <header>
-            <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+            <span class="image avatar"><img src="images/thesis/speechpfp.png" alt="" /></span>
             <h1 id="logo"><a href="#">Thesis Research</a></h1>
         </header>
         <nav id="nav">
             <ul>
                 <li><a href="belu.html">Belu</a></li>
-                <li><a href="hydra.html">Hydra Diagnostics</a></li>
+                <li><a href="" class="disabled">Hydra Diagnostics</a></li>
                 <li><a href="groundbraker.html">Groundbraker</a></li>
                 <li><a href="bike.html">The Mouldy Bike</a></li>
                 <li><a href="index.html" class="active">Home</a></li>
@@ -32,7 +33,8 @@
         </nav>
         <footer>
             <ul class="icons">
-                <li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://www.linkedin.com/in/alexjshackleton/" class="icon brands fa-linkedin"><span
+                            class="label">Linkedin</span></a></li>
                 <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
                 <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
@@ -48,21 +50,16 @@
             <!-- One -->
             <section id="one">
                 <div class="image main" data-position="center">
-                    <img src="images/banner.jpg" alt="" />
+                    <img src="images/thesis/gettyimages-1248270139-612x612.jpg" alt="" />
                 </div>
                 <div class="container">
                     <header class="major">
                         <header class="major">
                             <h2>Speech Classification Research</h2>
-                            <p>CO-FOUNDER OF A STARTUP THAT DEVELOPED FROM A MULTINATIONAL MASTERS DESIGN PROJECT </p>
+                            <p>Developing a Speech Interface for use in Assistive Service Robots</p>
                         </header>
-                        <p>One of eight students selected to take part in an international product design course, with
-                            the
-                            opportunity to work with a multidisciplinary team, split between Ireland and Italy, on a
-                            broad
-                            project brief set to us by an industry sponsor. Our sponsor, <a
-                                href="https://food.cloud/">FoodCloud</a> gave us the task of finding
-                            an innovative way to reduce food waste in the hospitality and food service sector.</p>
+                        <p>This research was conducted as part of my engineering masters program and the continuation of
+                            research begun during sa summer internship.</p>
                 </div>
             </section>
 
@@ -72,22 +69,25 @@
 
                     <header>
                         <h3>Problem Area</h3>
-                        <p>Over one ⅓ of all food produced worldwide is wasted</p>
+                        <p>The worlds ageing population is increasing at a dramatic rate.</p>
                     </header>
-                    <p>The hospitality and food services sector
-                        being one of the biggest contributors. If food waste was a country it would be the largest green
-                        house gas emitter in the world, after China and the USA. It’s not just the food that is being
-                        wasted, it is also wasting all of the time, money, water, labour and transport costs that it
-                        took to
-                        get the food from a farm to your plate.</p>
+                    <p>With the expected increase in the number of people over the age of 65,
+                        comes a need for more facilities to assist them in living independent lives. The current model
+                        of the care industry is
+                        not equipped to handle the impending surge in demand, so the sector is crying out for
+                        innovation. Assistive service
+                        robots may be part of the solution to this problem. There needs to be a way of controlling these
+                        devices and given the
+                        target users, voice control would appear the best option for a control interface.
+                    </p>
                     <header>
-                        <h4>Solution</h4>
-                        <p>The aim was is to stop food waste at the source</p>
+                        <h4>Research Focus</h4>
+                        <p>The focus of this research was to develop a direct speech classifier.</p>
                     </header>
-                    <p>Before it is ordered, cooked or even grown by capturing, categorizing and quantifying the food
-                        waste in restaurants. This information is gathered using computer vision, and relayed this
-                        information to managers through an intuitive UI allowing them to have better control over their
-                        inventory, save money and subsequently reduce their impact on the environment.</p>
+                    <p>This is module that distinguishes between speech
+                        directed at the robot and other environmental noises. Such a classifier would be a more
+                        privacy-focused replacement
+                        for wake-word activation.</p>
                     <hr />
                 </div>
             </section>
@@ -96,108 +96,115 @@
             <section id="three">
                 <div class="container">
                     <h3>Research Process</h3>
-                    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                        Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-                    <span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-                    <h4>Initial Scoping</h4>
+
+                    <span class="image fit"><img src="images/thesis/banner.png" alt="" /></span>
+                    <h4>Speech Processing</h4>
 
 
-                    <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Over an initial 9 month
-                        design cycle both the Irish and Italian teams engaged with stakeholders to develop numerous
-                        prototypes. First identified key stakeholder groups and built empathy maps and personas.
-                        This allowed us to better understand our problem space and single out particular points of
-                        friction that our users have when dealing with said problem.</br>
-                        We then built prototypes to test critical functions with our users and used their feedback
-                        and experiences to refine our design. This input from the users coupled with technical
-                        research and benchmarking reviews of existing technologies and patents allowed us to
-                        converge on a solution to the problem that fit our end users'needs. Our first prototype had
-                        the functionailty to both provide buisnesses with useful data and the means to convey that
-                        data in a meaningful way. The physical unit was also designed to be as easy to use as
-                        possible through ergonomic mechanical design and automation. </p>
+                    <p><span class="image left"><img src="images/thesis/pic1.png" alt="" /></span>
+                        The first thing that needed to be decided on was a metric to judge the sound samples on. Through
+                        an extensive literature multiple speech properties were examined and compared until finally I
+                        settled on using Mel Frequency Spectrograms.
+                        It seemed like the perfect choice as the mel scale
+                        aplfies frequencies associated with human voice and the image based nature of the spectrogram
+                        made for easy integration into the CNN.<br>
+                        Audio clips would be fed into a script to split the audio files in 4 second chunks.This
+                        strayed from the norm as sounds are usually analyzed in much shorter windows ( &#60; 250ms).
+                        However I
+                        wasn't interested in the content of the speech (i.e exactly what someone was saying), just
+                        in the presence of speech in a sample so I did not need the same level of fidelity. Then
+                        each clip was converted from a wav file to a Mel Spectrogram using the Librosa library for
+                        Python. </p>
                     <hr />
                     <h4>Creating the Dataset</h4>
-                    <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Our second design
-                        cycle
-                        began after receiving funding from the Launchbox Student Accelerator Program. This marked a
-                        shift in our design focus as now we not only had to think about how to fit our product to
-                        our users needs but we also had to make the idea financially viable. During this time we
-                        pitched to multiple investors and startup funds and focussed on honing our value proposition
-                        for our product. Coming from a Engineering background this was an eye opening experience and
-                        we quickly had to learn to balance the commercial side of things with our need to drive the
-                        technical development of our product forward.
+                    <p><span class="image right"><img src="images/thesis/audio.png" alt="" /></span>One major issue I
+                        found
+                        with previous research into speech classification with the size and quality of the
+                        datasets
+                        used. A lot of speech recognition models are trained on relatively small, clean datasets
+                        in
+                        laboratory condition. While this can be great for proof of concept, my research was more
+                        focused
+                        on on creating something to be used in a real-world setting therefore creating my own
+                        database
+                        was an essential part of the process. <br>
+                        I used subsets of Google's <a href="https://research.google.com/audioset/">AudioSet</a> and the
+                        <a href="https://urbansounddataset.weebly.com/urbansound8k.html">UrbanSound8K</a> dataset along
+                        with field recordings in
+                        order to try and create a robust recognition model. Podcasts , Audiobooks and actual recordings
+                        of one sided conversations were used for the samples of direct speech. Ambient sounds such as
+                        kitchen noises, field recording of libraries ,cafes and hallways and other environmental sounds
+                        clips were used as the non speech classes. I also mixed speech and non speech samples together
+                        to varying degrees in order to discourage the model from overfitting to the training data. <br>
+                        The dataset consisited of <b>20 hours</b> of audio files, <b> 10 hours of speech </b> (50/50
+                        male/female voices) and <b> 10 hours of environmental noise </b> (30% included some level of
+                        background coversation).
 
-                        During our time in LaunchBox and after we refined our prototype design, developed an
-                        adaptable pitch deck while working on our business plan and developing a logo. The product
-                        was showcased at <a
-                            href="https://thespoon.tech/ces-2020-antx-and-flowwaste-use-data-to-cut-cafeteria-food-waste/">CES
-                            2020</a> in Las Vegas .</p>
-                    <hr />
+                        <hr />
                     <h4>Model Devlopment</h4>
 
 
-                    <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Over an initial 9 month
-                        design cycle both the Irish and Italian teams engaged with stakeholders to develop numerous
-                        prototypes. First identified key stakeholder groups and built empathy maps and personas.
-                        This allowed us to better understand our problem space and single out particular points of
-                        friction that our users have when dealing with said problem.</br>
-                        We then built prototypes to test critical functions with our users and used their feedback
-                        and experiences to refine our design. This input from the users coupled with technical
-                        research and benchmarking reviews of existing technologies and patents allowed us to
-                        converge on a solution to the problem that fit our end users'needs. Our first prototype had
-                        the functionailty to both provide buisnesses with useful data and the means to convey that
-                        data in a meaningful way. The physical unit was also designed to be as easy to use as
-                        possible through ergonomic mechanical design and automation. </p>
+                    <p><span class="image left"><img src="images/thesis/Convolutional-Neural-Networks.png"
+                                alt="" /></span>First step in model
+                        development was choosing a suitable benchmark. Since using CNN’s for speech classification was a
+                        relatively novel approach at the time there weren't many existing models that I could use freely
+                        for my research. Therefore I chose to split the benchmarking process into two sections; the
+                        application and the technology. <br>
+                        The WebRTC VAD (voice activity detection) algorithm was chosen as the benchmark mark for my
+                        models performance at completing its classification task. The WebRTC model is considered one of
+                        the gold standards in Voice Activity Detection so it was an obvious choice to compare
+                        against.However it runs off completely different input parameters and uses a statistically model
+                        rather than and a neural network therefore I would have have to chose another model for
+                        comparison to see how well it was implemented. I chose both the ResNet 50 and VGG 19 for this
+                        purpose as they are well established open sourced image classification models . Using transfer
+                        learning I was able to adjust the model weights to fit my purpose using my new dataset.<br>
+                        The custom convolutional neural network that was developed as part of this research combined the
+                        strived to both be light weight, like the WebRTC, so it could be used on smaller embedded
+                        systems but still mretain some of the powerful pattern recogniton adapibilty of the CNNs.
+                    </p>
                     <hr />
                     <h4>Testing and Analysis</h4>
-                    <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Our second design
-                        cycle
-                        began after receiving funding from the Launchbox Student Accelerator Program. This marked a
-                        shift in our design focus as now we not only had to think about how to fit our product to
-                        our users needs but we also had to make the idea financially viable. During this time we
-                        pitched to multiple investors and startup funds and focussed on honing our value proposition
-                        for our product. Coming from a Engineering background this was an eye opening experience and
-                        we quickly had to learn to balance the commercial side of things with our need to drive the
-                        technical development of our product forward.
+                    <p><span class="image right"><img src="images/thesis/pic2.png" alt="" /></span>For the testing the
+                        dataset was given a 70/20/10 split. 70% being used model training, 20% for validation and the
+                        remaining 10% remaining unseen by the model to ensure fair testing. Each model also was put
+                        through 3 classification tasks Binary(Speech/NonSpeech) 3 Class with added the background speech
+                        class and 6 Class in which the background noise was broken up into several subsections. The
+                        models computation time was also recorded.
 
-                        During our time in LaunchBox and after we refined our prototype design, developed an
-                        adaptable pitch deck while working on our business plan and developing a logo. The product
-                        was showcased at <a
-                            href="https://thespoon.tech/ces-2020-antx-and-flowwaste-use-data-to-cut-cafeteria-food-waste/">CES
-                            2020</a> in Las Vegas .</p>
+                        <br>The models precision and recall were used as points of comparison. Precision being how many
+                        many times it correctly identified a sample and recall describing how well it could recognise a
+                        particular class. Both were then combined to get a full picture of each models accuracy.
+
+                        <br>The neural networks were further dissected with layer activation information being
+                        extracted. This could allowed me to take a peek under the hood of these neural networks and get
+                        an idea of what patterns and feature were causing each layer to activate ,thus how the model was
+                        making its classification decisions.
+                    </p>
                     <hr />
 
-                    <span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-                    <div class="box alt">
-                        <div class="row gtr-50 gtr-uniform">
-                            <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-                            </div>
-                            <div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <!-- Four -->
             <section id="four">
                 <div class="container">
                     <h3>Results</h3>
-                    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                        Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                    <p>
+                        The results from the testing were very promising for the custom CNN. While it was out performed
+                        by both the WebRTC and RESNET50/ VGG16 models in terms of precision, the custom model had far
+                        fewer false positives meaning in terms of overall accuracy it came out on top. The WebRTC models
+                        were designed solely for recognising speech so it was to be expected that it would get confused
+                        on non speech samples while the RESNET50/ VGG16 models were simple to heavy for the task and had
+                        over fit to the training data. Although in terms of accuracy the model was a success there was
+                        room for improvement in terms of computational efficiency. Excluding the data per processing
+                        (turning sound file into spectrogram) the custom CNN model was comparable to the WebRTC speeds
+                        making it a contender to be used with embedded systems. However the process of changing the
+                        sound into an image was time consuming, and this problem will need to be addressed before the
+                        model can be used for a real-world application. <br>
+                        This exploratory research has provided a good outline for the appropriate methods to use when
+                        conducting further
+                        work in the area of study. It has also provided a baseline for model performance for this
+                        classification task and
+                        provided a new database that can be used or built upon on further research into the field.</p>
 
                 </div>
             </section>
